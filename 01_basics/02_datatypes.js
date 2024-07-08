@@ -10,7 +10,7 @@ console.log("Vikas");
 
 console.log("Hi! this is Vikas"); console.log("I am 24 years old unemployed guy")
 
-let name = "Viaks" //string data type
+let name = "Vikas" //string data type
 let age = 18 //number datat type
 let isLoggedIn = false // boolean data type
 
