@@ -62,5 +62,32 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+
+
+// ************************ operations ************************* //
+let value = 33
+
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+// console.log("1" + 2)  //  => 12
+// console.log(1 + "2")  //  => 12
+// console.log(1 + 2 + "2")  // => 32
+// console.log("1" + 2 + 2)  // => 122
+
+//          tricky conversions
+
+console.log(true) // => true
+console.log(+true) // => 1   conversion could also be done from this but this is not a good practice
+console.log(+"")  // => 0    conversion could also be done from this but this is not a good practice
+
