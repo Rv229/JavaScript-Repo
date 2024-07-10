@@ -8,4 +8,18 @@
 
 // typesscript is also a programming language
 
-console.log
+
+
+console.log(typeof null)
+console.log(null > 0)
+console.log(null == 0)
+console.log(null >= 0)
+
+console.log(typeof undefined)
+console.log(undefined >= 0)
+console.log(undefined == 0)
+console.log(undefined <= 0)
+
+//  === strict conversion
+
+console.log("2" === "2")
