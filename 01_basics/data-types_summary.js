@@ -50,3 +50,31 @@ const myFunction = function (){
 }
 
 // console.log(typeof(myFunction()));
+
+
+// ***************** Memories types ***********************************
+
+// 2 types stack(Primitive)  -- In stack memory we get copy of orignal value
+//  heap (non - primitive ) -- we get the orignal value
+
+let myYoutubeChannel = "vikas_singh-dot-com"
+
+anotherYoutubeChannel = myYoutubeChannel
+
+anotherYoutubeChannel = "chai_with_vikas"
+console.log(anotherYoutubeChannel)
+
+let userOne = {
+    user : "user@google.com",
+    upi : "user@ybl"
+}
+
+// console.log(userone)
+
+let userTwo = userOne
+
+userTwo.user = "Vikas"
+userTwo.email = "Vikas@google.com"
+
+console.log(userTwo)
+console.log(userOne)
