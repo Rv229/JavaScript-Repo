@@ -10,10 +10,10 @@
 
 
 
-console.log(typeof null)
-console.log(null > 0)
-console.log(null == 0)
-console.log(null >= 0)
+// console.log(typeof null)
+// console.log(null > 0)
+// console.log(null == 0)
+// console.log(null >= 0)
 
 console.log(typeof undefined)
 console.log(undefined >= 0)
